@@ -315,7 +315,7 @@ if TELEGRAM_AUDIO_URL:
 
 if STREAM_IMG_URL:
     if STREAM_IMG_URL != "assets/Stream.jpeg":
-        if not re.match("(?:http|https)://", STREAM_IMG_URL):
+        if not re.match("https://telegra.ph/file/dcb09c4cb6511ebb4e54f.png"‚
             print(
                 "[ERROR] - Your STREAM_IMG_URL url is wrong. Please ensure that it starts with https://"
             )
