@@ -11,14 +11,14 @@
 # Commands in Every Language
 
 # Bot Commands
-PING_COMMAND : ["ping"]
-START_COMMAND : ["mstart"]
-HELP_COMMAND : ["mhelp"]
-SETTINGS_COMMAND : ["settings", "setting"]
-RELOAD_COMMAND : ["admincache", "reload"]
+PING_COMMAND : ["vcping"]
+START_COMMAND : ["vcstart"]
+HELP_COMMAND : ["vchelp"]
+SETTINGS_COMMAND : ["vcsettings", "vcsetting"]
+RELOAD_COMMAND : ["admincache", "vcreload"]
 GSTATS_COMMAND : ["gstats"]
 STATS_COMMAND : ["stats"]
-LANGUAGE_COMMAND : ["lang", "language", "langs"]
+LANGUAGE_COMMAND : ["vclang", "language", "langs"]
 
 # Play Commands
 PLAY_COMMAND : ["play", "vplay", "cplay", "cvplay", "playforce", "vplayforce", "cplayforce", "cvplayforce"]
@@ -57,7 +57,7 @@ RESTART_COMMAND : ["restart"]
 # Sudo Command
 ADDSUDO_COMMAND : ["addsudo"]
 DELSUDO_COMMAND : ["delsudo"]
-SUDOUSERS_COMMAND : ["sudolist"]
+SUDOUSERS_COMMAND : ["vcsudolist"]
 
 #Broadcast 
 BROADCAST_COMMAND : ["broadcast"]
@@ -100,7 +100,7 @@ UNBLOCK_COMMAND : ["unblock"]
 BLOCKED_COMMAND : ["blockedusers"]
 
 #sPEEDTEST
-SPEEDTEST_COMMAND : ["speedtest"]
+SPEEDTEST_COMMAND : ["vcspeedtest"]
 
 #Voice chat commands
 ACTIVEVC_COMMAND : ["activevoice"]
